@@ -1,0 +1,12 @@
+server:
+   servlet:
+   context-path: /produdoro/api
+
+spring:
+   data:
+     mongodb:
+      authentication-database: admin
+      uri: ${MONGO_DB_URI:mongodb+srv://renan:FWYQrAqn15T38Twi@cluster0.lfwuems.mongodb.net/}
+      database: renan
+  
+    
